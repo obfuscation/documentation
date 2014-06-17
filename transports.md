@@ -1,12 +1,12 @@
-| Transports    | Support in|    |
-| --------------|----------------|
+| Transports    | Support in     |
+| --------------|---------------:|
 | obfs2         | Tor            |
 | obfs3         | Tor            |
 | FTE           | Tor            |
 | scramblesuit  | Tor            |
 | obfs4         | Tor            |
 | obfuscatedssh | Psiphon        |
-| meek          | Tor, psiphon   |
+| meek          | Tor, Psiphon   |
 | flashproxy    | Tor            |
-| webrtc        | uproxy         |
+| socks-rtc     | uproxy         |
 | flashlight    | Lantern        |
