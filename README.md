@@ -46,8 +46,8 @@ Current Pluggable Transport integrations
 | Transports                                           | Support in
 -------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | [obfs2](https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/blob/HEAD:/doc/obfs2/obfs2-protocol-spec.txt)         | [Tor](https://www.torproject.org/)                                                        |
-| [obfs3](https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/blob/HEAD:/doc/obfs3/obfs3-protocol-spec.txt)         | [Tor](https://www.torproject.org/), [Lantern](http://getlantern.org)                      |
-| [FTE](https://fteproxy.org/)                                                                                                   | [Tor](https://www.torproject.org/)                                                        |
+| [obfs3](https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/blob/HEAD:/doc/obfs3/obfs3-protocol-spec.txt)         | [Tor](https://www.torproject.org/)                      |
+| [FTE](https://fteproxy.org/)                                                                                                   | [Tor](https://www.torproject.org/), [Lantern](http://getlantern.org)                      |
 | [scramblesuit](http://www.cs.kau.se/philwint/scramblesuit/)                                                                    | [Tor](https://www.torproject.org/)                                                        |
 | [obfuscatedssh](https://github.com/brl/obfuscated-openssh/blob/master/README.obfuscation)                                      | [Psiphon](https://psiphon.ca/)                                                            |
 | [meek](https://trac.torproject.org/projects/tor/wiki/doc/meek)                                                                 | [Tor](https://www.torproject.org/),  [Psiphon](https://psiphon.ca/)                       |
