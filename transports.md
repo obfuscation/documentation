@@ -1,12 +1,11 @@
-| Transports    | Support in     |
-| --------------|---------------:|
-| obfs2         | Tor            |
-| obfs3         | Tor            |
-| FTE           | Tor            |
-| scramblesuit  | Tor            |
-| obfs4         | Tor            |
-| obfuscatedssh | Psiphon        |
-| meek          | Tor, Psiphon   |
-| flashproxy    | Tor            |
-| socks-rtc     | uproxy         |
-| flashlight    | Lantern        |
+| Transports                                           | Support in
+-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| [obfs2](https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/blob/HEAD:/doc/obfs2/obfs2-protocol-spec.txt)         | [Tor](https://www.torproject.org/)                                                        |
+| [obfs3](https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/blob/HEAD:/doc/obfs3/obfs3-protocol-spec.txt)         | [Tor](https://www.torproject.org/)                                                        |
+| [FTE](https://fteproxy.org/)                                                                                                   | [Tor](https://www.torproject.org/)                                                        |
+| [scramblesuit](http://www.cs.kau.se/philwint/scramblesuit/)                                                                    | [Tor](https://www.torproject.org/)                                                        |
+| [obfuscatedssh](https://github.com/brl/obfuscated-openssh/blob/master/README.obfuscation)                                      | [Psiphon](https://psiphon.ca/)                                                            |
+| [meek](https://trac.torproject.org/projects/tor/wiki/doc/meek)                                                                 | [Tor](https://www.torproject.org/),  [Psiphon](https://psiphon.ca/)                       |
+| [flashproxy](https://crypto.stanford.edu/flashproxy/)                                                                          | [Tor](https://www.torproject.org/)                                                        |
+| [socks-rtc](https://github.com/uProxy/socks-rtc)                                                                               | [uProxy](https://www.google.com/ideas/projects/uproxy/)                                   |
+| [flashlight](https://github.com/getlantern/flashlight)                                                                         | [Lantern](https://www.getlantern.org/)                                                    |
