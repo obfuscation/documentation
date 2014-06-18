@@ -43,18 +43,18 @@ The obfuscation is the hard part, and as long as it's built using fairly generic
 Current Pluggable Transport integrations
 ====
 
-| Transports                                           | Support in     |
-|------------------------------------------------------|----------------|
-| [obfs2](https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/blob/HEAD:/doc/obfs2/obfs2-protocol-spec.txt)         | [Tor](https://www.torproject.org/)                                                        |
-| [obfs3](https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/blob/HEAD:/doc/obfs3/obfs3-protocol-spec.txt)         | [Tor](https://www.torproject.org/)                                                        |
-| [FTE](https://fteproxy.org/)                                                                                                   | [Tor](https://www.torproject.org/), [Lantern](http://getlantern.org)     |
-| [scramblesuit](http://www.cs.kau.se/philwint/scramblesuit/)                                                                    | [Tor](https://www.torproject.org/)                                                        |
-| [obfuscatedssh](https://github.com/brl/obfuscated-openssh/blob/master/README.obfuscation)                                      | [Psiphon](https://psiphon.ca/)                                                            |
-| [meek](https://trac.torproject.org/projects/tor/wiki/doc/meek)                                                                 | [Tor](https://www.torproject.org/),  [Psiphon](https://psiphon.ca/)                       |
-| [flashproxy](https://crypto.stanford.edu/flashproxy/)                                                                          | [Tor](https://www.torproject.org/)                                                        |
-| [socks-rtc](https://github.com/uProxy/socks-rtc)                                                                               | [uProxy](https://www.google.com/ideas/projects/uproxy/)                                   |
-| [flashlight](https://github.com/getlantern/flashlight)                                                                         | [Lantern](https://www.getlantern.org/)                                                    |
-| [Dust](https://github.com/blanu/Dust)                                                                                          | [Dust](https://github.com/blanu/Dust)                                                     |
+| Transports                                           | Support in     |  Short Obfuscation Description  |
+|------------------------------------------------------|----------------|---------------------------------|
+| [obfs2](https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/blob/HEAD:/doc/obfs2/obfs2-protocol-spec.txt)         | [Tor](https://www.torproject.org/)                                                        |    |
+| [obfs3](https://gitweb.torproject.org/pluggable-transports/obfsproxy.git/blob/HEAD:/doc/obfs3/obfs3-protocol-spec.txt)         | [Tor](https://www.torproject.org/)                                                        |    |
+| [FTE](https://fteproxy.org/)                                                                                                   | [Tor](https://www.torproject.org/), [Lantern](http://getlantern.org)                      |    |
+| [scramblesuit](http://www.cs.kau.se/philwint/scramblesuit/)                                                                    | [Tor](https://www.torproject.org/)                                                        |    |
+| [obfuscatedssh](https://github.com/brl/obfuscated-openssh/blob/master/README.obfuscation)                                      | [Psiphon](https://psiphon.ca/)                                                            |    |
+| [meek](https://trac.torproject.org/projects/tor/wiki/doc/meek)                                                                 | [Tor](https://www.torproject.org/),  [Psiphon](https://psiphon.ca/)                       |    |
+| [flashproxy](https://crypto.stanford.edu/flashproxy/)                                                                          | [Tor](https://www.torproject.org/)                                                        |    |
+| [socks-rtc](https://github.com/uProxy/socks-rtc)                                                                               | [uProxy](https://www.google.com/ideas/projects/uproxy/)                                   |  FTE, Rabbit-Cypher  |
+| [flashlight](https://github.com/getlantern/flashlight)                                                                         | [Lantern](https://www.getlantern.org/)                                                    |    |
+| [Dust](https://github.com/blanu/Dust)                                                                                          | [Dust](https://github.com/blanu/Dust)                                                     |    |
 
 
 Tor's Pluggable Transports links:
