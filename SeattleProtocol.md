@@ -57,25 +57,39 @@ HMAC - Sha256 or Sha3
 
 Record format - Encrypted length, Encrypted data, HMAC
 
+Handshake Flow
+--------------
+
+Client: Client ECDHE public key
+Server: Server ECDHE public key
+Client: Client Confirmation code
+Server: Server Confirmation code
+Client: Client IV
+Server: Server IV
+
 Format
 ------
 
-Ephemeral Public Key
-Authentication Code
-IV
-Record
+(FIXME: all sizes in bytes are just guesses from memory at the moment. Look up the real sizes)
+
+### Handshake Format
+
+ECDHE Public Key - 32 bytes
+Confirmation Code - 12 bytes
+IV - 32 bytes
+Record - variable
 ...
-Record
+Record - variable
 
-Record Format
+### Record Format
 
-Length
-Payload
+Length - 2 bytes
+Payload - variable
 
-Payload Format
+### Payload Format
 
-Encrypted Data
-HMAC
+Encrypted Data - variable
+HMAC - 32 bytes
 
 Related Work
 ============
