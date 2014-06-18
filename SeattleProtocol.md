@@ -80,29 +80,29 @@ HMAC
 Related Work
 ============
 
-QUIC
-MinimalLT
-CurveCP
-Noise
-TLS 1.3
-Stegotaurus
+- QUIC
+- MinimalLT
+- CurveCP
+- Noise
+- TLS 1.3
+- Stegotaurus
 
 Open Issues
 ===========
 
-Replay Attacks
-Stream fragmentation
-Length padding
-Truncation attacks
-Choice of a good PRNG
+- Replay Attacks
+- Stream fragmentation
+- Length padding
+- Truncation attacks
+- Choice of a good PRNG
 
 References
 ==========
 
-ntor
-Curve25519
-Ed25519
-Elligator
-AES
-Salsa
-Encrypt then MAC
+- ntor
+- Curve25519
+- Ed25519
+- Elligator
+- AES
+- Salsa
+- Encrypt then MAC
