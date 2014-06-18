@@ -52,7 +52,7 @@ Current Pluggable Transport integrations
 | [obfuscatedssh](https://github.com/brl/obfuscated-openssh/blob/master/README.obfuscation)                                      | [Psiphon](https://psiphon.ca/)                                                            |    |
 | [meek](https://trac.torproject.org/projects/tor/wiki/doc/meek)                                                                 | [Tor](https://www.torproject.org/),  [Psiphon](https://psiphon.ca/)                       |    |
 | [flashproxy](https://crypto.stanford.edu/flashproxy/)                                                                          | [Tor](https://www.torproject.org/)                                                        |    |
-| [socks-rtc](https://github.com/uProxy/socks-rtc)                                                                               | [uProxy](https://www.google.com/ideas/projects/uproxy/)                                   |  FTE, Rabbit-Cypher  |
+| [socks-rtc](https://github.com/uProxy/socks-rtc)                                                                               | [uProxy](https://www.google.com/ideas/projects/uproxy/)                                   |  FTE, Rabbit-Cipher  |
 | [flashlight](https://github.com/getlantern/flashlight)                                                                         | [Lantern](https://www.getlantern.org/)                                                    |    |
 | [Dust](https://github.com/blanu/Dust)                                                                                          | [Dust](https://github.com/blanu/Dust)                                                     |    |
 
