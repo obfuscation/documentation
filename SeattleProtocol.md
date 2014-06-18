@@ -2,6 +2,7 @@ The Seattle Protocol is an encryption and authentication layer for use by obfusc
 protocols.
 
 Introduction
+============
 
 Obfuscated protocols use novel ways to encode travel so that it can bypass filters,
 but they also share some common requirements. Encryption and aunthenticaiton is one
@@ -12,12 +13,14 @@ provides encryption and authentication and which has been developed by the commu
 meet the specific needs of the obfuscation community.
 
 Why not just use TLS?
+---------------------
 
 TLS is general purpose solution for all of the Internet's encryption and aunthetication
 needs. There are trade-offs in being a general purpose solution. The Seattle Protocol
 aims to better fit for obfuscating protocols.
 
 Design Requirements
+-------------------
 
 The key requirement of an encryption and authentication layer for use in obfuscating
 protocols is that all output from the encryption and authentication later is
@@ -46,6 +49,7 @@ The implementations should be kept brief and reduce dependencies on third party
 libraries in order to maintain auditability.
 
 Protocol Specification
+======================
 
 Key Exchange - ntor with Curve25519/Elligator
 Cipher - AES in counter mode with "encrypt then HMAC" or Salsa with "encrypt then HMAC"
@@ -54,6 +58,7 @@ HMAC - Sha256 or Sha3
 Record format - Encrypted length, Encrypted data, HMAC
 
 Format
+------
 
 Ephemeral Public Key
 Authentication Code
@@ -73,6 +78,7 @@ Encrypted Data
 HMAC
 
 Related Work
+============
 
 QUIC
 MinimalLT
@@ -82,6 +88,7 @@ TLS 1.3
 Stegotaurus
 
 Open Issues
+===========
 
 Replay Attacks
 Stream fragmentation
@@ -90,6 +97,7 @@ Truncation attacks
 Choice of a good PRNG
 
 References
+==========
 
 ntor
 Curve25519
