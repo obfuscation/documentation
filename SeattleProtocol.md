@@ -51,21 +51,21 @@ libraries in order to maintain auditability.
 Protocol Specification
 ======================
 
-Key Exchange - ntor with Curve25519/Elligator
-Cipher - AES in counter mode with "encrypt then HMAC" or Salsa with "encrypt then HMAC"
-HMAC - Sha256 or Sha3
+- Key Exchange - ntor with Curve25519/Elligator
+- Cipher - AES in counter mode with "encrypt then HMAC" or Salsa with "encrypt then HMAC"
+- HMAC - Sha256 or Sha3
 
-Record format - Encrypted length, Encrypted data, HMAC
+- Record format - Encrypted length, Encrypted data, HMAC
 
 Handshake Flow
 --------------
 
-Client: Client ECDHE public key
-Server: Server ECDHE public key
-Client: Client Confirmation code
-Server: Server Confirmation code
-Client: Client IV
-Server: Server IV
+- Client: Client ECDHE public key
+- Server: Server ECDHE public key
+- Client: Client Confirmation code
+- Server: Server Confirmation code
+- Client: Client IV
+- Server: Server IV
 
 Format
 ------
@@ -74,22 +74,22 @@ Format
 
 ### Handshake Format
 
-ECDHE Public Key - 32 bytes
-Confirmation Code - 12 bytes
-IV - 32 bytes
-Record - variable
-...
-Record - variable
+- ECDHE Public Key - 32 bytes
+- Confirmation Code - 12 bytes
+- IV - 32 bytes
+- Record - variable
+- ...
+- Record - variable
 
 ### Record Format
 
-Length - 2 bytes
-Payload - variable
+- Length - 2 bytes
+- Payload - variable
 
 ### Payload Format
 
-Encrypted Data - variable
-HMAC - 32 bytes
+- Encrypted Data - variable
+- HMAC - 32 bytes
 
 Related Work
 ============
