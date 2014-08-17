@@ -15,7 +15,7 @@ There are two main collaboration spaces:
 **Mailing List**: [Our Google Group](https://groups.google.com/forum/?hl=en#!forum/traffic-obf)
 
 **IRC Meeting**: The Pluggable Transports community conducts biweekly IRC meetings. You can 
-find us in #tor-dev at the OFTC network [every second friday](https://www.google.com/calendar/embed?src=dt92shou5q1ooe1kptubhclo4s%40group.calendar.google.com) at 
+find us in #tor-dev at the OFTC network [every second Wednesday](https://www.google.com/calendar/embed?src=dt92shou5q1ooe1kptubhclo4s%40group.calendar.google.com) at 
 [16:00 UTC](http://www.timeanddate.com/worldclock/fixedtime.html?hour=16&min=00&sec=0p1=0).
 
 Goals
