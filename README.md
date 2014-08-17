@@ -4,8 +4,8 @@ Introduction
 This repository is a cross-project collaboration space for censorship circumvention tools.
 Our initial focus is expanding Tor's [pluggable transports](https://gitweb.torproject.org/torspec.git/blob/HEAD:/pt-spec.txt) work to easily
 work in a wider variety of circumvention tools. Initial collaborators include [Lantern](http://getlantern.org),
-[Psiphon](https://s3.amazonaws.com/0ubz-2q11-gi9y/en.html), [Tor](https://www.torproject.org/) and 
-[uProxy](https://www.google.com/ideas/projects/uproxy/), [Dust](https://github.com/blanu/Dust).
+[Psiphon](https://s3.amazonaws.com/0ubz-2q11-gi9y/en.html), [Tor](https://www.torproject.org/),
+[uProxy](https://www.google.com/ideas/projects/uproxy/), and [Dust](https://github.com/blanu/Dust).
 
 Collaboration
 ====
