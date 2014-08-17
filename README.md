@@ -29,7 +29,7 @@ What is a Pluggable Transport?
 ====
 
 Pluggable Transports were defined by Tor, but some (FTEProxy, Meek) have already been adapted to 
-other tools (Lantern, Psiphon. They are:
+other tools (Lantern, Psiphon). They are:
 
 * Standalone processes that accept traffic from a client and route it to a server
 
