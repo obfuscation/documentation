@@ -50,10 +50,10 @@ Current Pluggable Transport integrations
 | [FTE](https://fteproxy.org/)                                                                                                   | [Tor](https://www.torproject.org/), [Lantern](http://getlantern.org)                      |    |
 | [scramblesuit](http://www.cs.kau.se/philwint/scramblesuit/)                                                                    | [Tor](https://www.torproject.org/)                                                        |    |
 | [obfuscatedssh](https://github.com/brl/obfuscated-openssh/blob/master/README.obfuscation)                                      | [Psiphon](https://psiphon.ca/)                                                            |    |
-| [meek](https://trac.torproject.org/projects/tor/wiki/doc/meek)                                                                 | [Tor](https://www.torproject.org/),  [Psiphon](https://psiphon.ca/)                       |    |
+| [meek](https://trac.torproject.org/projects/tor/wiki/doc/meek)                                                                 | [Tor](https://www.torproject.org/),  [Psiphon](https://psiphon.ca/)                       |  Domain-fronting  |
 | [flashproxy](https://crypto.stanford.edu/flashproxy/)                                                                          | [Tor](https://www.torproject.org/)                                                        |    |
 | [socks-rtc](https://github.com/uProxy/socks-rtc)                                                                               | [uProxy](https://www.google.com/ideas/projects/uproxy/)                                   |  FTE, Rabbit-Cipher  |
-| [flashlight](https://github.com/getlantern/flashlight)                                                                         | [Lantern](https://www.getlantern.org/)                                                    |    |
+| [flashlight](https://github.com/getlantern/flashlight)                                                                         | [Lantern](https://www.getlantern.org/)                                                    |  Domain-fronting, similar to Meek  |
 | [Dust](https://github.com/blanu/Dust)                                                                                          | [Dust](https://github.com/blanu/Dust)                                                     |    |
 
 
